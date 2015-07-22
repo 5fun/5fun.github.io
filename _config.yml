@@ -1,0 +1,7 @@
+# Site settings
+title: 5fun
+baseurl: "/landing" # the subpath of your site, e.g. /blog/
+url: "http://5fun.github.io"
+
+# Build settings
+markdown: kramdown
