@@ -18,8 +18,9 @@ html, body {
 
 body {
   background: url("/landing/assets/background.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: center 0;
   animation-name: animatedBackground;
   animation-duration: 120s;
   animation-iteration-count: 1;
@@ -43,11 +44,9 @@ div {
 
 @keyframes animatedBackground {
   0% {
-    //transform: translateY(0%);
-    background-position: 0 0;
+    background-position: center 0;
   }
   100% {
-    //transform: translateY(-30%);
-    background-position: 0 100%;
+    background-position: center 100%;
   }
 }
